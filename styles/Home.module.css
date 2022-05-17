@@ -4,42 +4,6 @@
 
 /* Header CSS start */
 
-.header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  color: #fff;
-  font-weight: 200;
-  font-size: .9rem;
-}
-
-.headerImage {
-  width: auto;
-  height: auto;
-  visibility: hidden;
-  display: none;
-}
-
-.headerMiddle {
-  width: auto;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.headerMiddle p {
-  color: #808080;
-}
-
-.headerMiddleFirst {
-  margin-right: 3rem;
-}
-
-.headerLast {
-  float: right;
-  display: flex;
-}
-
 .headerDivider {
   margin-top: .5rem;
   border-top: 1px solid #272727;
@@ -47,40 +11,27 @@
   visibility: visible;
 }
 
+.sectionRows {
+  display: flex;
+  flex: inline-flex;
+  justify-content: space-between;
+}
+
 /* Header end */
 
 /* media query for mobile */
 
 @media (max-width: 760px) {
-  
-  .headerImage {
-    width: auto;
-    height: auto;
-    visibility: visible;
-  }
-
-  .headerMiddle {
-    display: none;
-    visibility: hidden;
-  }
-  
-  .headerMiddle p {
-    display: none;
-    visibility: hidden;
-  }
-
-  .headerLast {
-    display: flex;
-  }
-
-  .headerLast p {
-    display: none;
-  }
 
   .headerDivider {
     border-top: 1px solid #272727;
     color: #272727;
     visibility: visible;
+  }
+
+  .sectionRows {
+    display: grid;
+    row-gap: 1rem;
   }
 
 }

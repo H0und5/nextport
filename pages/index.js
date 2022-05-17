@@ -13,6 +13,9 @@ import home from '../src/assets/home.json';
 // components
 import NavBar from '../src/components/NavBar';
 import CaseCard from '../src/components/CaseCard';
+import Divider from '../src/components/Divider';
+import SectionHeader from '../src/components/SectionHeader';
+import CopyCard from '../src/components/CopyCard';
 
 
 export default function Home() {
@@ -36,6 +39,33 @@ export default function Home() {
         title={"Building a convenient IT helpdesk experience"}
         year={"2020-2021"}  
       />
+
+      <Divider />
+
+      <SectionHeader title={"Playground"}/>
+      
+      <div className={styles.sectionRows}>
+        <CopyCard 
+          title={"UI Mission"}
+          description={"Randomized UI prompts that try to help designers stay in constraints working with other systems."}
+          link={"Visit site ->"}
+          linkSource={"/writings/two"}
+        />
+        <CopyCard 
+          title={"UI Mission"}
+          description={"Randomized UI prompts that try to help designers stay in constraints working with other systems."}
+          link={"Visit site ->"}
+          linkSource={"/writings/two"}
+        />
+      </div>
+
+      <Divider />
+
+      <SectionHeader title={"Writings"}/>
+
+      <Divider />
+
+      <SectionHeader title={"Bookshelf"}/>
 
     </div>
   )
