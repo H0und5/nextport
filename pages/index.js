@@ -1,5 +1,4 @@
 // import Head from 'next/head'
-import Image from 'next/image'
 import styles from '../styles/Home.module.css';
 
 // images
@@ -13,7 +12,8 @@ import home from '../src/assets/home.json';
 // components
 import NavBar from '../src/components/NavBar';
 import CaseCard from '../src/components/CaseCard';
-import Divider from '../src/components/Divider';
+import BigDivider from '../src/components/BigDivider';
+import SmallDivider from '../src/components/SmallDivider';
 import SectionHeader from '../src/components/SectionHeader';
 import CopyCard from '../src/components/CopyCard';
 
@@ -40,32 +40,113 @@ export default function Home() {
         year={"2020-2021"}  
       />
 
-      <Divider />
+      {/* Start of Playground Section */}
+
+      <BigDivider />
 
       <SectionHeader title={"Playground"}/>
       
       <div className={styles.sectionRows}>
         <CopyCard 
           title={"UI Mission"}
-          description={"Randomized UI prompts that try to help designers stay in constraints working with other systems."}
+          description={"Randomized UI prompts that to help designers stay in constraints working with other systems."}
           link={"Visit site ->"}
           linkSource={"/writings/two"}
         />
+        
         <CopyCard 
-          title={"UI Mission"}
-          description={"Randomized UI prompts that try to help designers stay in constraints working with other systems."}
+          title={"GitBuds"}
+          description={"Randomized UI prompts that to help designers stay in constraints working with other systems."}
           link={"Visit site ->"}
           linkSource={"/writings/two"}
         />
       </div>
 
-      <Divider />
+      <SmallDivider />
+      
+      <div className={styles.sectionRows}>
+        <CopyCard 
+          title={"Battled"}
+          description={"Randomized UI prompts that to help designers stay in constraints working with other systems."}
+          link={"Visit site ->"}
+          linkSource={"/writings/two"}
+        />
+
+        <CopyCard 
+          title={"Da Todo"}
+          description={"Randomized UI prompts that to help designers stay in constraints working with other systems."}
+          link={"Visit site ->"}
+          linkSource={"/writings/two"}
+        />
+      </div>
+      
+      {/* Start of Writings Section */}
+
+      <BigDivider />
 
       <SectionHeader title={"Writings"}/>
 
-      <Divider />
+      <div className={styles.sectionRows}>
+        <CopyCard 
+          title={"Manifesto"}
+          description={"Randomized UI prompts that to help designers stay in constraints working with other systems."}
+          link={"Visit site ->"}
+          linkSource={"/writings/two"}
+        />
+
+        <SmallDivider />
+
+        <CopyCard 
+          title={"What I want to achieve early in my career"}
+          description={"Randomized UI prompts that to help designers stay in constraints working with other systems."}
+          link={"Visit site ->"}
+          linkSource={"/writings/two"}
+        />
+      </div>
+
+      {/* Start of Bookshelf Section */}
+
+      <BigDivider />
 
       <SectionHeader title={"Bookshelf"}/>
+
+      <div className={styles.sectionRows}>
+        <CopyCard 
+          title={"Manifesto"}
+          description={"Randomized UI prompts that to help designers stay in constraints working with other systems."}
+          link={"Visit site ->"}
+          linkSource={"/writings/two"}
+        />
+
+        <SmallDivider />
+
+        <CopyCard 
+          title={"What I want to achieve early in my career"}
+          description={"Randomized UI prompts that to help designers stay in constraints working with other systems."}
+          link={"Visit site ->"}
+          linkSource={"/writings/two"}
+        />
+      </div>
+
+      <SmallDivider />
+
+      <div className={styles.sectionRows}>
+        <CopyCard 
+          title={"Manifesto"}
+          description={"Randomized UI prompts that to help designers stay in constraints working with other systems."}
+          link={"Visit site ->"}
+          linkSource={"/writings/two"}
+        />
+
+        <SmallDivider />
+
+        <CopyCard 
+          title={"What I want to achieve early in my career"}
+          description={"Randomized UI prompts that to help designers stay in constraints working with other systems."}
+          link={"Visit site ->"}
+          linkSource={"/writings/two"}
+        />
+      </div>
 
     </div>
   )

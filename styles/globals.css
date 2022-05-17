@@ -1,9 +1,32 @@
+@font-face {
+  font-family: "Untitled-Sans";
+  src: url("/public/fonts/untitled-sans-light.woff2");
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "Untitled-Sans";
+  src: url("/public/fonts/untitled-sans-regular.woff2");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "JetBrains Mono";
+  src: url("/public/fonts/JetBrainsMono-Light.woff2");
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "JetBrains Mono";
+  src: url("/public/fonts/JetBrainsMono-Thin.woff2");
+  font-weight: 100;
+}
+
 html,
 body {
   width: auto;
   margin: 1rem 10vw 0vw 10vw;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: 'Untitled Sans', sans-serif;
   background-color: #1A1A1A;
 }
 
@@ -26,8 +49,7 @@ a {
   body {
     width: auto;
     margin: 2vw 3vw 0vw 3vw;
-    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-      Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    font-family: 'Untitled Sans', sans-serif;
     background-color: #1A1A1A;
   }
 
