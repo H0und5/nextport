@@ -1,11 +1,21 @@
 .caseCardContainer {
+  margin-top: 2rem;
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.caseCardImage {
-  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+.caseCardImageContainer {
+  width: auto;
 }
 
 .caseCardContent {
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #FFFFFF;
+}
+
+.caseCardContent h5 {
+  font-family:'Courier New', Courier, monospace;
+}
+
+.caseCardContent p {
+  font-family:'Courier New', Courier, monospace;
 }
