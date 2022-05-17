@@ -72,6 +72,7 @@
   }
 
   .headerDivider {
+    margin-top: .4rem;
     border-top: 1px solid #272727;
     color: #272727;
     visibility: visible;
