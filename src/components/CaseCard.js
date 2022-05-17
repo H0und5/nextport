@@ -1,11 +1,18 @@
+import Image from "next/image";
 
+import styles from '../../styles/CaseCard.module.css';
 
-const CaseCard = () => {
+const CaseCard = ({ imageSrc, imageAlt, title, year }) => {
   
   return (
-    <div>
-      <h4>This is a title</h4>
-      <p>This is a description</p>
+    <div className={styles.caseCardContainer}>
+      <div className={styles.caseCardImage}>
+        <Image src={imageSrc} alt={imageAlt}/>
+      </div>
+      <div className={styles.caseCardContent}>
+        <h5>{title}</h5>
+        <p>{year}</p>
+      </div>
     </div>
   )
 }
