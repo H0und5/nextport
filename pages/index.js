@@ -1,11 +1,12 @@
-import Head from 'next/head'
+// import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css';
 
 // images
 import menuBar from '../public/menuBar.svg'
 
-
+// components
+import CaseCard from '../src/components/CaseCard';
 
 export default function Home() {
   return (
@@ -28,6 +29,9 @@ export default function Home() {
       </div>
 
       <div className={styles.headerDivider}></div>
+
+      <CaseCard />
+
     </div>
   )
 }

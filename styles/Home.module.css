@@ -1,3 +1,9 @@
+.container {
+  width: auto;
+}
+
+/* Header CSS start */
+
 .header {
   display: flex;
   justify-content: space-between;
@@ -7,16 +13,11 @@
   font-size: .9rem;
 }
 
-.headerDivider {
-  height: 1px;
-  color: #808080;
-  width: auto;
-}
-
 .headerImage {
   width: auto;
   height: auto;
   visibility: hidden;
+  display: none;
 }
 
 .headerMiddle {
@@ -31,7 +32,7 @@
 }
 
 .headerMiddleFirst {
-  margin-right: 2rem;
+  margin-right: 3rem;
 }
 
 .headerLast {
@@ -39,10 +40,16 @@
   display: flex;
 }
 
-.container {
-  width: auto;
+.headerDivider {
+  margin-top: .5rem;
+  border-top: 1px solid #272727;
+  color: #272727;
+  visibility: visible;
 }
 
+/* Header end */
+
+/* media query for mobile */
 
 @media (max-width: 760px) {
   
@@ -68,6 +75,12 @@
 
   .headerLast p {
     display: none;
+  }
+
+  .headerDivider {
+    border-top: 1px solid #272727;
+    color: #272727;
+    visibility: visible;
   }
 
 }
