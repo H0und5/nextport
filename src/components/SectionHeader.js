@@ -8,7 +8,7 @@ const SectionHeader = ({ title }) => {
     <div className={styles.sectionHeaderContainer}>
       <h3>{title}</h3>
       <Link href="/">
-        <a>{`VIEW ALL ->`}</a>
+        <a><span style={{letterSpacing: '.1rem'}}>{`VIEW ALL `}</span>{`->`}</a>
       </Link>
       {/* <a href="/">VIEW ALL -></a> */}
     </div>
