@@ -5,11 +5,18 @@
   color: #fff;
   font-weight: 200;
   font-size: .9rem;
+  animation: header;
+  animation-duration: 1s;
+  position: relative;
 }
 
 /* key frame*/
 
-
+@keyframes header {
+  0% {opacity: 0;}
+  50% {top: 10px; opacity: 0;}
+  100% {top: 0px; opacity: 1;}
+}
 
 
 /* Header styling */

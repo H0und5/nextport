@@ -33,6 +33,9 @@
 .caseCardContainer {
   margin-top: 2rem;
   font-family: 'Untitled Sans', sans-serif;
+  animation: caseCardContainer;
+  animation-duration: 1.5s;
+  position: relative;
 }
 
 .caseCardImageContainer {
@@ -67,6 +70,12 @@
 }
 
 /* Animations below */
+
+@keyframes caseCardContainer {
+  0% {opacity: 0;}
+  50% {top: 20px; opacity: 0;}
+  100% {top: 0px; opacity: 1;}
+}
 
 
 .caseCardImageContainer:hover {
