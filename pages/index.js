@@ -142,6 +142,9 @@ export default function Home() {
         />
       </div>
 
+      <BigDivider />
+      <BigDivider />
+
     </div>
   )
 }
