@@ -19,7 +19,7 @@ const NavBar = () => {
 
       <div className={styles.headerLast}>
         <Image className={styles.headerImage} src={menuBar} alt="menu bar" width={20} height={20}/>
-        <p>About</p>
+        <p style={{color: '#808080'}}>About</p>
       </div>
     </div>
   )
