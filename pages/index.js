@@ -110,15 +110,15 @@ export default function Home() {
 
       <div className={styles.sectionRows}>
         <CopyCard 
-          title={"Manifesto"}
-          description={"Randomized UI prompts that to help designers stay in constraints working with other systems."}
-          link={"Visit site ->"}
+          title={"Range"}
+          description={"A book about why generalists triumph in a specialized world is a 2019 book by David Epstein."}
+          link={"Buy from publisher ->"}
           linkSource={"/writings/two"}
         />
 
         <CopyCard 
-          title={"What I want to achieve early in my career"}
-          description={"Randomized UI prompts that to help designers stay in constraints working with other systems."}
+          title={"Thinking in Systems"}
+          description={"A concise book offering insight for problem solving on scales of personal and global by Donella Meadows."}
           link={"Visit site ->"}
           linkSource={"/writings/two"}
         />
