@@ -18,7 +18,7 @@
 
 @font-face {
   font-family: "JetBrains Mono";
-  src: url("/public/fonts/JetBrainsMono-Thin.woff2");
+  src: url("../public/fonts/JetBrainsMono-Thin.woff2");
   font-weight: 100;
 }
 
@@ -45,17 +45,17 @@
 .copyCardContent p {
   font-family: 'Untitled Sans', sans-serif;
   font-size: .9rem;
-  font-weight: 200;
+  font-weight: 300;
   color: #808080;
-  line-height: 1.2rem;
+  line-height: 1.24rem;
   padding-bottom: 1.5rem;
   margin: 0;
 }
 
 .copyCardLink {
   font-family: 'JetBrains Mono', monospace;
-  font-size: .8rem;
-  font-weight: 300;
+  font-size: .7rem;
+  font-weight: 100;
   color: #D9D9D9;
 }
 

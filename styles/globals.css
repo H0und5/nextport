@@ -22,12 +22,20 @@
   font-weight: 100;
 }
 
+@font-face {
+  font-family: "GT Super Display";
+  src: url("../public/fonts/GT-Super-Display-Light.woff2");
+  font-weight: 300;
+} 
+
 html,
 body {
   width: auto;
   margin: 1rem 10vw 0vw 10vw;
   font-family: 'Untitled Sans', sans-serif;
   background-color: #1A1A1A;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 a {
