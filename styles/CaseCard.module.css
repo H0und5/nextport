@@ -37,6 +37,7 @@
 
 .caseCardImageContainer {
   width: auto;
+  transition: transform .25s ease-in-out;
 }
 
 .caseCardContent {
@@ -64,6 +65,16 @@
   color: #808080;
   visibility: visible;
 }
+
+/* Animations below */
+
+
+.caseCardImageContainer:hover {
+  width: auto;
+  transition: transform .25s ease-in-out;
+  transform: translateY(-5px);
+}
+
 
 /* mobile responsiveness shit below */
 
