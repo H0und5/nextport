@@ -22,11 +22,13 @@
   font-weight: 100;
 }
 
+/* Font styles defined above */
+
 .copyCardContainer {
   padding: 1.4rem;
   background: #1B1B1B;
   border: 1px solid #272727;
-  width: 49%;
+  width: auto;
 }
 
 .copyCardContent {
