@@ -28,6 +28,7 @@
   font-weight: 300;
 }
 
+/* font attributes defined above */
 
 .caseCardContainer {
   margin-top: 2rem;
@@ -64,6 +65,8 @@
   visibility: visible;
 }
 
+/* mobile responsiveness shit below */
+
 @media (max-width: 760px) {
   .caseCardContent p {
     font-family: 'Untitled Sans', sans-serif;
@@ -72,5 +75,13 @@
     color: #808080;
     visibility: hidden;
     display: none
+  }
+
+  .caseCardContent h5 {
+    margin-top: .75rem;
+    font-family: 'Untitled Sans', sans-serif;
+    font-size: .9rem;
+    font-weight: 300;
+    color: #CBCBCB;
   }
 }

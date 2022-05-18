@@ -94,8 +94,6 @@ export default function Home() {
           linkSource={"/writings/two"}
         />
 
-        <SmallDivider />
-
         <CopyCard 
           title={"What I want to achieve early in my career"}
           description={"Randomized UI prompts that to help designers stay in constraints working with other systems."}
@@ -118,8 +116,6 @@ export default function Home() {
           linkSource={"/writings/two"}
         />
 
-        <SmallDivider />
-
         <CopyCard 
           title={"What I want to achieve early in my career"}
           description={"Randomized UI prompts that to help designers stay in constraints working with other systems."}
@@ -137,8 +133,6 @@ export default function Home() {
           link={"Visit site ->"}
           linkSource={"/writings/two"}
         />
-
-        <SmallDivider />
 
         <CopyCard 
           title={"What I want to achieve early in my career"}
