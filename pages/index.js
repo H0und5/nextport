@@ -50,14 +50,14 @@ export default function Home() {
         <CopyCard 
           title={"UI Mission"}
           description={"Randomized UI prompts that to help designers stay in constraints working with other systems."}
-          link={"Visit site ->"}
+          link={"View live site ->"}
           linkSource={"/writings/two"}
         />
         
         <CopyCard 
           title={"GitBuds"}
           description={"Randomized UI prompts that to help designers stay in constraints working with other systems."}
-          link={"Visit site ->"}
+          link={"View live site ->"}
           linkSource={"/writings/two"}
         />
       </div>
@@ -68,14 +68,14 @@ export default function Home() {
         <CopyCard 
           title={"Battled"}
           description={"Randomized UI prompts that to help designers stay in constraints working with other systems."}
-          link={"Visit site ->"}
+          link={"View live site ->"}
           linkSource={"/writings/two"}
         />
 
         <CopyCard 
           title={"Da Todo"}
           description={"Randomized UI prompts that to help designers stay in constraints working with other systems."}
-          link={"Visit site ->"}
+          link={"View live site ->"}
           linkSource={"/writings/two"}
         />
       </div>
@@ -89,15 +89,15 @@ export default function Home() {
       <div className={styles.sectionRows}>
         <CopyCard 
           title={"Manifesto"}
-          description={"Randomized UI prompts that to help designers stay in constraints working with other systems."}
-          link={"Visit site ->"}
+          description={"To aim for excellence in the face of challenges and opportunities, is the mark of a designer."}
+          link={"Read article ->"}
           linkSource={"/writings/two"}
         />
 
         <CopyCard 
           title={"What I want to achieve early in my career"}
-          description={"Randomized UI prompts that to help designers stay in constraints working with other systems."}
-          link={"Visit site ->"}
+          description={"A written goal for what I’ll be aiming for over these next few years and something I hope to achieve."}
+          link={"Read article ->"}
           linkSource={"/writings/two"}
         />
       </div>
@@ -118,8 +118,8 @@ export default function Home() {
 
         <CopyCard 
           title={"Thinking in Systems"}
-          description={"A concise book offering insight for problem solving on scales of personal and global by Donella Meadows."}
-          link={"Visit site ->"}
+          description={"Offers insight for problem solving on scales of personal and global by Donella Meadows."}
+          link={"Buy from publisher ->"}
           linkSource={"/writings/two"}
         />
       </div>
@@ -128,16 +128,16 @@ export default function Home() {
 
       <div className={styles.sectionRows}>
         <CopyCard 
-          title={"Manifesto"}
-          description={"Randomized UI prompts that to help designers stay in constraints working with other systems."}
-          link={"Visit site ->"}
+          title={"Sapiens"}
+          description={"Dtails the whole of human history through the Cognitive, Agricultural, and Scientific Revolutions."}
+          link={"Buy from publisher ->"}
           linkSource={"/writings/two"}
         />
 
         <CopyCard 
-          title={"What I want to achieve early in my career"}
-          description={"Randomized UI prompts that to help designers stay in constraints working with other systems."}
-          link={"Visit site ->"}
+          title={"User-Friendly"}
+          description={"How a paradigm that machines should anticipate what we need, quietly rules our modern lives."}
+          link={"Buy from publisher ->"}
           linkSource={"/writings/two"}
         />
       </div>
