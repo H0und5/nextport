@@ -104,6 +104,23 @@
     background: #1B1B1B;
     border: 1px solid #272727;
     width: auto;
+    box-shadow: 0px 4px 2px rgb(0 0 0 / 8%);
+  }
+
+  .copyCardContainer:hover {
+    padding: 1.1rem;
+    background: #1B1B1B;
+    border: 1px solid #272727;
+    width: auto;
+    box-shadow: 0px 4px 2px rgb(0 0 0 / 8%);
+  }
+  
+  .copyCardContainer:hover::after {
+    padding: 1.1rem;
+    background: #1B1B1B;
+    border: 1px solid #272727;
+    width: auto;
+    box-shadow: 0px 4px 2px rgb(0 0 0 / 8%);
   }
 
   .copyCardContent h5 {
