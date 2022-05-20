@@ -1,0 +1,55 @@
+
+@font-face {
+  font-family: "GT Super Display";
+  src: url("../public/fonts/GT-Super-Display-Light.woff2");
+  font-weight: 300;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.mobileBioContainer {
+  display: none;
+  animation: mobileBioContainer;
+  animation-duration: 1.5s;
+}
+
+@keyframes mobileBioContainer {
+  0% {opacity: 0;}
+  50% {top: 10px; opacity: 0;}
+  100% {top: 0px; opacity: 1;}
+}
+
+@media (max-width: 760px) {
+
+  .mobileBioContainer {
+    display: block;
+    font-family: 'GT Super Display';
+    color: #CBCBCB;
+    font-size: 1.2rem;
+    font-weight: 100;
+    letter-spacing: .04rem;
+    margin-bottom: 4rem;
+    margin-top: 4rem;
+    line-height: 1.6rem;
+    position: relative;
+    animation-duration: 1.5s;
+  }
+
+  @keyframes mobileBioContainer {
+    0% {opacity: 0;}
+    50% {top: 10px; opacity: 0;}
+    100% {top: 0px; opacity: 1;}
+  }
+
+  .mobileBioGreyed {
+    font-family: 'GT Super Display';
+    color: #808080;
+    font-size: 1.2rem;
+    font-weight: 100;
+    letter-spacing: .04rem;
+    margin-bottom: 2.5rem;
+  }
+
+}
+
+

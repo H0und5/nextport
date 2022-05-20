@@ -17,6 +17,7 @@ import SmallDivider from '../src/components/SmallDivider';
 import SectionHeader from '../src/components/SectionHeader';
 import CopyCard from '../src/components/CopyCard';
 import MobileButton from '../src/components/MobileButton';
+import MobileBio from '../src/components/MobileBio';
 
 
 export default function Home() {
@@ -26,6 +27,8 @@ export default function Home() {
       <NavBar />
 
       <div className={styles.headerDivider}></div>
+
+      <MobileBio />
 
       <CaseCard 
         imageSrc={giveDisplay}
@@ -134,7 +137,7 @@ export default function Home() {
       <div className={styles.sectionRows}>
         <CopyCard 
           title={"Sapiens"}
-          description={"Dtails the whole of human history through the Cognitive, Agricultural, and Scientific Revolutions."}
+          description={"Details the whole of human history through the Cognitive, Agricultural, and Scientific Revolutions."}
           link={"Buy from publisher ->"}
           linkSource={"/writings/two"}
         />
