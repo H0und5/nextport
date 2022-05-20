@@ -66,26 +66,6 @@ export default function Home() {
           linkSource={"/writings/two"}
         />
       </div>
-
-      <SmallDivider />
-      
-      <div className={styles.sectionRows}>
-        <CopyCard 
-          title={"Battled"}
-          description={"Randomized UI prompts that to help designers stay in constraints working with other systems."}
-          link={"View live site ->"}
-          linkSource={"/writings/two"}
-        />
-
-        <CopyCard 
-          title={"Da Todo"}
-          description={"Randomized UI prompts that to help designers stay in constraints working with other systems."}
-          link={"View live site ->"}
-          linkSource={"/writings/two"}
-        />
-      </div>
-
-      <MobileButton cta={"VIEW ALL"} />
       
       {/* Start of Writings Section */}
 
@@ -108,8 +88,6 @@ export default function Home() {
           linkSource={"/writings/two"}
         />
       </div>
-
-      <MobileButton cta={"VIEW ALL"} />
 
       {/* Start of Bookshelf Section */}
 
