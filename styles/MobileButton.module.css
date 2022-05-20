@@ -1,0 +1,41 @@
+@font-face {
+  font-family: "JetBrains Mono";
+  src: url("/public/fonts/JetBrainsMono-Light.woff2");
+  font-weight: 300;
+}
+
+/* font family defined above*/
+
+.buttonContainer {
+  display: none;
+}
+
+
+/* Mobile responsiveness shit defined below. */
+
+@media (max-width: 760px) {
+  .buttonContainer {
+    display: block;
+    background: #1B1B1B;
+    border: 1px solid #272727;
+    width: 100%;
+    /* box-shadow: 0px 4px 2px rgb(0 0 0 / 8%); */
+    text-align: center;
+    padding: 1rem;
+    margin-top: 1rem;
+    font-size: .7rem;
+  }
+
+  .buttonCta {
+    color: #cbcbcb;
+    font-family: 'JetBrains Mono', monospace;
+    font-weight: 100;
+    letter-spacing: .1rem;
+  }
+
+  .buttonArrow {
+    color: #cbcbcb;
+    font-family: 'JetBrains Mono', monospace;
+    font-weight: 100;
+  }
+}

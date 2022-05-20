@@ -6,8 +6,8 @@ import giveDisplay from '../public/giveDisplay.jpeg';
 import jhamDisplay from '../public/jhamDisplay.jpeg';
 
 
-// import home JSON object
-import home from '../src/assets/home.json';
+// // import home JSON object
+// import home from '../src/assets/home.json';
 
 // components
 import NavBar from '../src/components/NavBar';
@@ -16,6 +16,7 @@ import BigDivider from '../src/components/BigDivider';
 import SmallDivider from '../src/components/SmallDivider';
 import SectionHeader from '../src/components/SectionHeader';
 import CopyCard from '../src/components/CopyCard';
+import MobileButton from '../src/components/MobileButton';
 
 
 export default function Home() {
@@ -79,6 +80,8 @@ export default function Home() {
           linkSource={"/writings/two"}
         />
       </div>
+
+      <MobileButton cta={"VIEW ALL"} />
       
       {/* Start of Writings Section */}
 
@@ -101,6 +104,8 @@ export default function Home() {
           linkSource={"/writings/two"}
         />
       </div>
+
+      <MobileButton cta={"VIEW ALL"} />
 
       {/* Start of Bookshelf Section */}
 
@@ -141,6 +146,8 @@ export default function Home() {
           linkSource={"/writings/two"}
         />
       </div>
+
+      <MobileButton cta={"VIEW ALL"} />
 
       <BigDivider />
       <BigDivider />
