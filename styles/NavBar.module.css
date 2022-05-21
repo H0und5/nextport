@@ -64,7 +64,7 @@
 }
 
 .headerDivider {
-  margin-top: .5rem;
+  margin-top: 1rem;
   border-top: 1px solid #272727;
   color: #272727;
   visibility: visible;
@@ -101,10 +101,20 @@
   }
 
   .headerDivider {
-    margin-top: .4rem;
+    margin-top: 1rem;
     border-top: 1px solid #272727;
     color: #272727;
     visibility: visible;
+  }
+
+  .headerHome {
+    cursor: pointer;
+  }
+  
+  .headerNotHome {
+    cursor: pointer;
+    color: #808080;
+     display: none;
   }
 
 }
