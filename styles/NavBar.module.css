@@ -19,7 +19,18 @@
 }
 
 
+
 /* Header styling */
+
+.headerHome {
+  cursor: pointer;
+}
+
+.headerNotHome {
+  cursor: pointer;
+  color: #808080;
+}
+
 
 .headerImage {
   width: auto;
@@ -35,12 +46,16 @@
   align-items: center;
 }
 
-.headerMiddle p {
-  color: #808080;
-}
-
 .headerMiddleFirst {
   margin-right: 3rem;
+  color: #808080;
+  cursor: pointer;
+}
+
+.active {
+  color: fff;
+  margin-right: 3rem;
+  cursor: pointer;
 }
 
 .headerLast {

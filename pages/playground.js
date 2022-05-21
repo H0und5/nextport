@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <div className={styles.container}>
 
-      <NavBar />
+      <NavBar playground={true}/>
 
       <div className={styles.headerDivider}></div>
 

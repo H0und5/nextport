@@ -25,7 +25,7 @@ export default function Home() {
   return (
     <div className={styles.container}>
 
-      <NavBar />
+      <NavBar home={true}/>
 
       <div className={styles.headerDivider}></div>
 
@@ -49,7 +49,7 @@ export default function Home() {
 
       <BigDivider />
 
-      <SectionHeader title={"Playground"}/>
+      <SectionHeader title={"Playground"} link={'/'}/>
       
       <div className={styles.sectionRows}>
         <CopyCard 
@@ -71,7 +71,7 @@ export default function Home() {
 
       <BigDivider />
 
-      <SectionHeader title={"Writings"}/>
+      <SectionHeader title={"Writings"} link={'/'}/>
 
       <div className={styles.sectionRows}>
         <CopyCard 
@@ -93,7 +93,7 @@ export default function Home() {
 
       <BigDivider />
 
-      <SectionHeader title={"Bookshelf"}/>
+      <SectionHeader title={"Bookshelf"} cta={'VIEW ALL'} arrow={'->'} link={"/bookshelf"}/>
 
       <div className={styles.sectionRows}>
         <CopyCard 

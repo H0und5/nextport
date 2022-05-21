@@ -2,13 +2,13 @@ import styles from '../../styles/SectionHeader.module.css';
 
 import Link from 'next/link';
 
-const SectionHeader = ({ title }) => {
+const SectionHeader = ({ title, cta, arrow, link }) => {
 
   return (
     <div className={styles.sectionHeaderContainer}>
       <h3>{title}</h3>
-      <Link href="/">
-        <a><span style={{letterSpacing: '.02rem'}}>{`View all `}</span>{`->`}</a>
+      <Link href={`${link}`}>
+        <a><span style={{letterSpacing: '.02rem'}}>{cta}</span>{arrow}</a>
       </Link>
       {/* <a href="/">VIEW ALL -></a> */}
     </div>
