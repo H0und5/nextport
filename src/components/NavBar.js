@@ -8,12 +8,12 @@ import styles from '../../styles/NavBar.module.css';
 const NavBar = ({ home, work, playground, writings, bookshelf, about }) => {
 
   // active state CSS className logic
-  const homeFill = home ? styles.headerHome : styles.headerNotHome;
+  const homeFill = home ? styles.Home : styles.NotHome;
   const workFill = work ? styles.active : styles.headerMiddleFirst;
   const playgroundFill = playground ? styles.active : styles.headerMiddleFirst;
   const writingsFill = writings ? styles.active : styles.headerMiddleFirst;
   const bookshelfFill = bookshelf ? styles.active : styles.headerMiddleFirst;
-  const aboutFill = about ? styles.headerHome : styles.headerNotHome;
+  const aboutFill = about ? styles.whiteOut : styles.greyed;
 
 
 
@@ -48,7 +48,7 @@ const NavBar = ({ home, work, playground, writings, bookshelf, about }) => {
           </span>
         </Link>
         <Link href="mailto:om@omnagarkar.com">
-          <span className={styles.headerNotHome}>Email</span>
+          <span className={styles.greyed}>Email</span>
         </Link>
       </div>
 
