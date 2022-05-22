@@ -10,7 +10,6 @@ import jhamDisplay from '../public/jhamDisplay.jpeg';
 // import home from '../src/assets/home.json';
 
 // components
-import NavBar from '../src/components/NavBar';
 import CaseCard from '../src/components/CaseCard';
 import BigDivider from '../src/components/BigDivider';
 import SmallDivider from '../src/components/SmallDivider';

@@ -7,7 +7,6 @@ import jhamDisplay from '../public/jhamDisplay.jpeg';
 import typeDisplay from '../public/typographitDisplay.jpg';
 
 // components
-import NavBar from '../src/components/NavBar';
 import CaseCard from '../src/components/CaseCard';
 
 
