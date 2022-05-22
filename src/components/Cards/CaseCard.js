@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 
 
-import styles from '../../styles/CaseCard.module.css';
+import styles from './CaseCard.module.css';
 
 const CaseCard = ({ imageSrc, imageAlt, title, year, linkSource }) => {
   

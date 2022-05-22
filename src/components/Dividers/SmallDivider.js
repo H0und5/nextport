@@ -1,4 +1,4 @@
-import styles from '../../styles/SmallDivider.module.css';
+import styles from '../Dividers/SmallDivider.module.css';
 
 const SmallDivider = () => {
 

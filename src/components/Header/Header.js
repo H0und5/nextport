@@ -9,8 +9,6 @@ import styles from './Header.module.css';
 const Header = () => {
   const router = useRouter();
 
-  console.log({ router});
-
   // JSX return with Link Elements
   return (
     <div className={styles.header}>

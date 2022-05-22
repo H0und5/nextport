@@ -1,6 +1,5 @@
 
-import styles from '../../styles/MobileBio.module.css';
-import SmallDivider from './SmallDivider';
+import styles from '../MobileBio/MobileBio.module.css';
 
 const MobileBio = () => {
 

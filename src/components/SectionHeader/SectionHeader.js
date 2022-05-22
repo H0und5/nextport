@@ -1,4 +1,4 @@
-import styles from '../../styles/SectionHeader.module.css';
+import styles from '../SectionHeader/SectionHeader.module.css';
 
 import Link from 'next/link';
 

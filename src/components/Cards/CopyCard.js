@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import styles from '../../styles/CopyCard.module.css';
+import styles from '../Cards/CopyCard.module.css';
 
 const CopyCard = ({ title, description, link, linkSource }) => {
 

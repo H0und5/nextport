@@ -7,7 +7,7 @@ import jhamDisplay from '../public/jhamDisplay.jpeg';
 import typeDisplay from '../public/typographitDisplay.jpg';
 
 // components
-import CaseCard from '../src/components/CaseCard';
+import CaseCard from '../src/components/Cards/CaseCard';
 
 
 // mapping over Case Card, creating a object 

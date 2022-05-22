@@ -1,4 +1,4 @@
-import styles from '../../styles/MobileButton.module.css';
+import styles from '../Buttons/MobileButton.module.css';
 
 import Link from 'next/link';
 

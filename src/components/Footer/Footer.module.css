@@ -1,12 +1,12 @@
 @font-face {
   font-family: "Untitled-Sans";
-  src: url("/public/fonts/untitled-sans-light.woff2");
+  src: url("../../../public/fonts/untitled-sans-light.woff2");
   font-weight: 300;
 }
 
 @font-face {
   font-family: "Untitled-Sans";
-  src: url("/public/fonts/untitled-sans-regular.woff2");
+  src: url("../../../public/fonts/untitled-sans-regular.woff2");
   font-weight: 400;
 }
 

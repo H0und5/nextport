@@ -10,14 +10,14 @@ import jhamDisplay from '../public/jhamDisplay.jpeg';
 // import home from '../src/assets/home.json';
 
 // components
-import CaseCard from '../src/components/CaseCard';
-import BigDivider from '../src/components/BigDivider';
-import SmallDivider from '../src/components/SmallDivider';
-import SectionHeader from '../src/components/SectionHeader';
-import CopyCard from '../src/components/CopyCard';
-import MobileButton from '../src/components/MobileButton';
-import MobileBio from '../src/components/MobileBio';
-import Footer from '../src/components/Footer';
+import CaseCard from '../src/components/Cards/CaseCard';
+import BigDivider from '../src/components/Dividers/BigDivider';
+import SmallDivider from '../src/components/Dividers/SmallDivider';
+import SectionHeader from '../src/components/SectionHeader/SectionHeader';
+import CopyCard from '../src/components/Cards/CopyCard';
+import MobileButton from '../src/components/Buttons/MobileButton';
+import MobileBio from '../src/components/MobileBio/MobileBio';
+import Footer from '../src/components/Footer/Footer';
 
 
 export default function Home() {
