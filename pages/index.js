@@ -25,8 +25,6 @@ export default function Home() {
   return (
     <div className={styles.container}>
 
-      <NavBar home={true}/>
-
       <div className={styles.headerDivider}></div>
 
       <MobileBio />
@@ -36,6 +34,7 @@ export default function Home() {
         imageAlt={"This is the display image for the Givelify Case Study"}
         title={"Designing a magical donation experience"}
         year={"2021-2022"}  
+        linkSource={"/work/givelify"}
       />
       
       <CaseCard 
@@ -43,6 +42,7 @@ export default function Home() {
         imageAlt={"This is the display image for the Jham Case Study"}
         title={"Building a convenient IT helpdesk experience"}
         year={"2020-2021"}  
+        linkSource={"/work/jham"}
       />
 
       {/* Start of Playground Section */}

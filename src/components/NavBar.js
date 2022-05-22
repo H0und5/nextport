@@ -1,19 +1,23 @@
 import Image from "next/image"
 import Link from "next/link";
+import { useRouter } from 'next/router';
 
 import menuBar from '../../public/menuBar.svg';
 
 import styles from '../../styles/NavBar.module.css';
 
-const NavBar = ({ home, work, playground, writings, bookshelf, about }) => {
+const NavBar = () => {
+  const router = useRouter();
 
-  // active state CSS className logic
-  const homeFill = home ? styles.Home : styles.NotHome;
-  const workFill = work ? styles.active : styles.headerMiddleFirst;
-  const playgroundFill = playground ? styles.active : styles.headerMiddleFirst;
-  const writingsFill = writings ? styles.active : styles.headerMiddleFirst;
-  const bookshelfFill = bookshelf ? styles.active : styles.headerMiddleFirst;
-  const aboutFill = about ? styles.whiteOut : styles.greyed;
+  console.log({ router});
+
+
+  // // active state CSS className logic
+  // const workFill = work ? styles.active : styles.headerMiddleFirst;
+  // const playgroundFill = playground ? styles.active : styles.headerMiddleFirst;
+  // const writingsFill = writings ? styles.active : styles.headerMiddleFirst;
+  // const bookshelfFill = bookshelf ? styles.active : styles.headerMiddleFirst;
+  // const aboutFill = about ? styles.whiteOut : styles.greyed;
 
 
 
@@ -21,29 +25,29 @@ const NavBar = ({ home, work, playground, writings, bookshelf, about }) => {
   return (
     <div className={styles.header}>
       <Link href="/">
-        <span className={homeFill}>
+        <span className={router.asPath === '/' ? styles.Home : styles.NotHome}>
           Om Nagarkar
         </span>
       </Link>
 
       <div className={styles.headerMiddle}>
         <Link href="/work">
-          <span className={workFill}>
+          <span className={router.asPath === '/work' ? styles.active : styles.headerMiddleFirst}>
             Work
           </span>
         </Link>
         <Link href="/playground">
-          <span className={playgroundFill}>
+          <span className={router.asPath === '/playground' ? styles.active : styles.headerMiddleFirst}>
             Playground
           </span>
         </Link>
         <Link href="/writings">
-          <span className={writingsFill}>
+          <span className={router.asPath === '/writings' ? styles.active : styles.headerMiddleFirst}>
             Writings
           </span>
         </Link>
         <Link href="/bookshelf">
-          <span className={bookshelfFill}>
+          <span className={router.asPath === '/bookshelf' ? styles.active : styles.headerMiddleFirst}>
             Bookshelf
           </span>
         </Link>
@@ -55,7 +59,7 @@ const NavBar = ({ home, work, playground, writings, bookshelf, about }) => {
       <div className={styles.headerLast}>
         <Image className={styles.headerImage} src={menuBar} alt="menu bar" width={20} height={20}/>
         <Link href="/about">
-          <span className={aboutFill}>
+          <span className={router.asPath === '/about' ? styles.whiteOut : styles.greyed}>
             About
           </span>
         </Link>

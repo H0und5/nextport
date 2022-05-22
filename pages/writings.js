@@ -8,8 +8,6 @@ export default function Home() {
   return (
     <div className={styles.container}>
 
-      <NavBar writings={true}/>
-
       <div className={styles.headerDivider}></div>
 
 

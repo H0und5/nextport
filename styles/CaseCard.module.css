@@ -41,6 +41,7 @@
 .caseCardImageContainer {
   width: auto;
   transition: transform .25s ease-in-out;
+  cursor: pointer;
 }
 
 .caseCardContent {
@@ -57,6 +58,7 @@
   font-size: 1rem;
   font-weight: 300;
   color: #CBCBCB;
+  cursor: pointer;
 }
 
 .caseCardContent p {
@@ -67,6 +69,7 @@
   font-weight: 300;
   color: #808080;
   visibility: visible;
+  cursor: pointer;
 }
 
 /* Animations below */
