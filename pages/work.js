@@ -4,11 +4,11 @@ import styles from '../styles/Home.module.css';
 // JSON object
 import work from '../src/assets/work.json';
 
-// images
-import giveDisplay from '../public/giveDisplay.jpeg';
-import jhamDisplay from '../public/jhamDisplay.jpeg';
-import typeDisplay from '../public/typographitDisplay.jpeg';
-import clubhouseDisplay from '../public/clubhouseDisplay.jpeg'
+// // images
+// import giveDisplay from '../public/giveDisplay.jpeg';
+// import jhamDisplay from '../public/jhamDisplay.jpeg';
+// import typeDisplay from '../public/typographitDisplay.jpeg';
+// import clubhouseDisplay from '../public/clubhouseDisplay.jpeg'
 
 // components
 import CaseCard from '../src/components/Cards/CaseCard';

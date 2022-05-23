@@ -1,4 +1,4 @@
-import Header from '../src/components/header/Header'
+import Header from '../src/components/Header/Header';
 import '../styles/globals.css'
 
 function MyApp({ Component, pageProps }) {
@@ -9,7 +9,7 @@ function MyApp({ Component, pageProps }) {
     // how can we make the navbar be the same for every page?
     <div>
       <Header />
-     <Component {...pageProps} />
+      <Component {...pageProps} />
     </div>
     )
 }
