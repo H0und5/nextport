@@ -10,7 +10,7 @@ const CaseCard = ({ imageSrc, imageAlt, title, year, linkSource }) => {
     <div className={styles.caseCardContainer}>
       <div className={styles.caseCardImageContainer}>
         <Link href={linkSource}>
-          <Image src={imageSrc} alt={imageAlt} height="1600" layout="responsive" objectFit="cover"/>
+          <Image src={imageSrc} alt={imageAlt} height="1600" width="2800" layout="responsive" objectFit="cover"/>
         </Link>
       </div>
       <div className={styles.caseCardContent}>
