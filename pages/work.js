@@ -2,7 +2,7 @@
 import styles from '../styles/Home.module.css';
 
 // JSON object
-import work from '../src/assets/work.json';
+import work from '../src/assets/workData';
 
 // // images
 // import giveDisplay from '../public/giveDisplay.jpeg';
