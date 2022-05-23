@@ -7,7 +7,8 @@
   font-size: .9rem;
   animation: header;
   animation-duration: 1s;
-  position: relative;
+  position: sticky;
+  z-index: 99;
 }
 
 /* key frame*/
