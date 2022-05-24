@@ -24,8 +24,6 @@ export default function Home() {
   return (
     <div className={styles.container}>
 
-      <div className={styles.headerDivider}></div>
-
       <MobileBio />
 
       <CaseCard 

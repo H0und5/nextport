@@ -27,11 +27,9 @@ const workPage = work.map(work => <CaseCard
 console.log(workPage, work);
 
 
-export default function Home() {
+export default function Work() {
   return (
     <div className={styles.container}>
-
-      <div className={styles.headerDivider}></div>
 
       {workPage}
 

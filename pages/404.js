@@ -3,11 +3,9 @@ import styles from '../styles/Home.module.css';
 
 // components
 
-export default function Home() {
+export default function FourZeroFour() {
   return (
     <div className={styles.container}>
-
-      <div className={styles.headerDivider}></div>
 
     </div>
   )

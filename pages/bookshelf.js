@@ -7,8 +7,6 @@ export default function Bookshelf() {
   return (
     <div className={styles.container}>
 
-      <div className={styles.headerDivider}></div>
-
     </div>
   )
 }

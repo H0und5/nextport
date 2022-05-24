@@ -3,7 +3,7 @@ import styles from '../../styles/Home.module.css';
 
 // components
 
-export default function Home() {
+export default function Manifesto() {
   return (
     <div className={styles.container}>
 

@@ -1,0 +1,127 @@
+@font-face {
+  font-family: "Untitled-Sans";
+  src: url("/public/fonts/untitled-sans-light.woff2");
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "Untitled-Sans";
+  src: url("/public/fonts/untitled-sans-regular.woff2");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "GT Super Display";
+  src: url("../public/fonts/GT-Super-Display-Light.woff2");
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "JetBrains Mono";
+  src: url("/public/fonts/JetBrainsMono-Thin.woff2");
+  font-weight: 100;
+}
+
+/* font styles defined above */
+
+.headingOverview {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+
+.heading {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  margin-top: 4rem;
+  animation: heading;
+  animation-duration: 1.5s;
+  position: relative;
+}
+
+@keyframes heading {
+  0% {opacity: 0;}
+  50% {top: 20px; opacity: 0;}
+  100% {top: 0px; opacity: 1;}
+}
+
+.heading h1 {
+  font-family: 'GT Super Display', serif;
+  color: #cbcbcb;
+  font-weight: 100;
+  font-size: 2rem;
+  margin: 0;
+}
+
+.heading h6 {
+  padding: 0;
+  font-family: 'JetBrains Mono', monospace;
+  font-weight: 100;
+  font-size: .8rem;
+  color: #c0c0c0;
+  text-transform: uppercase;
+  letter-spacing: .02rem;
+}
+
+.heading p {
+  margin: 0;
+  padding: 0;
+  font-family: 'Untitled Sans', sans-serif;
+  font-weight: 100;
+  color: #c0c0c0;
+  letter-spacing: .01rem;
+}
+
+
+
+
+
+
+
+@media (max-width: 760px) {
+
+  .heading {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 4rem;
+    animation: heading;
+    animation-duration: 1.5s;
+    position: relative;
+  }
+
+  .heading h1 {
+    font-family: 'GT Super Display', serif;
+    color: #cbcbcb;
+    font-weight: 100;
+    font-size: 1.65rem;
+    margin: 0;
+    line-height: 2rem;
+  }
+  
+  .heading h6 {
+    padding: 0;
+    font-family: 'JetBrains Mono', monospace;
+    font-weight: 100;
+    font-size: .8rem;
+    color: #c0c0c0;
+    text-transform: uppercase;
+    letter-spacing: .02rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  .heading p {
+    margin: 0;
+    padding: 0;
+    font-family: 'Untitled Sans', sans-serif;
+    font-weight: 100;
+    font-size: .9rem;
+    color: #c0c0c0;
+    letter-spacing: .01rem;
+    line-height: 1.4rem;
+  }
+
+}
