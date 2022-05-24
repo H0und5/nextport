@@ -63,6 +63,8 @@
   color: #c0c0c0;
   text-transform: uppercase;
   letter-spacing: .02rem;
+  margin-top: 1.5rem;
+  margin-bottom: 1.4rem;
 }
 
 .heading p {
@@ -72,13 +74,52 @@
   font-weight: 100;
   color: #c0c0c0;
   letter-spacing: .01rem;
+  line-height: 1.5rem;
+}
+
+.headerImage {
+  margin-top: 4rem;
+  animation: headerImage;
+  animation-duration: 2s;
+  position: relative;
+}
+
+@keyframes headerImage {
+  0% {opacity: 0;}
+  50% {top: 40px; opacity: 0;}
+  100% {top: 0px; opacity: 1;}
+}
+
+.sectionSplit {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: row;
+}
+
+.sectionSplit h2 {
+  font-family: 'GT Super Display', serif;
+  color: #cbcbcb;
+  font-weight: 100;
+  font-size: 1.6rem;
+  margin: 0;
+  width: 40%;
+}
+
+.sectionSplit p {
+  margin: 0;
+  padding: 0;
+  font-family: 'Untitled Sans', sans-serif;
+  font-weight: 100;
+  color: #999;
+  letter-spacing: .01rem;
+  line-height: 1.5rem;
+  width: 60%;
 }
 
 
 
 
-
-
+/* Mobile responsiveness defined below */
 
 @media (max-width: 760px) {
 
@@ -105,7 +146,7 @@
     padding: 0;
     font-family: 'JetBrains Mono', monospace;
     font-weight: 100;
-    font-size: .8rem;
+    font-size: .7rem;
     color: #c0c0c0;
     text-transform: uppercase;
     letter-spacing: .02rem;
@@ -122,6 +163,43 @@
     color: #c0c0c0;
     letter-spacing: .01rem;
     line-height: 1.4rem;
+  }
+
+  .headerImage {
+    margin-top: 2rem;
+    animation: headerImage;
+    animation-duration: 2s;
+    position: relative;
+  }
+
+  /* Section Split Mobile Responsiveness */
+
+  .sectionSplit {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .sectionSplit h2 {
+    font-family: 'GT Super Display', serif;
+    color: #cbcbcb;
+    font-weight: 100;
+    font-size: 1.2rem;
+    line-height: 1.6rem;
+    margin: 0;
+    width: auto;
+  }
+  
+  .sectionSplit p {
+    margin-top: 1rem;
+    padding: 0;
+    font-family: 'Untitled Sans', sans-serif;
+    font-weight: 100;
+    font-size: .9rem;
+    color: #999999;
+    letter-spacing: .01rem;
+    line-height: 1.4rem;
+    width: auto;
   }
 
 }
