@@ -14,7 +14,7 @@ const workData = [
   },
   {
     "key": "1",
-    "title": "Building a convenient IT helpdesk experience",
+    "title": "Building a convenient IT helpdesk SaaS",
     "imageSrc": jhamDisplay,
     "imageAlt": "This is the display image for the Jham Case Study, which takes you to the project overview.",
     "year": "2020-2021",
