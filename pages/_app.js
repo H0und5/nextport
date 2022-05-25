@@ -1,3 +1,5 @@
+import SmallDivider from '../src/components/Dividers/SmallDivider';
+import Footer from '../src/components/Footer/Footer';
 import Header from '../src/components/Header/Header';
 import '../styles/globals.css'
 import styles from '../styles/Home.module.css';
@@ -12,6 +14,9 @@ function MyApp({ Component, pageProps }) {
       <Header />
       <div className={styles.headerDivider}></div>
       <Component {...pageProps} />
+      <div className={styles.headerDivider}></div>
+      <Footer />
+      <SmallDivider />
     </div>
     )
 }

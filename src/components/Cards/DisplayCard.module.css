@@ -29,6 +29,23 @@
   border: 1px solid #272727;
   margin: 0rem 0 1.6rem 0;
   padding-bottom: 1.2rem;
+  animation: displayCard;
+  animation-duration: 1.5s;
+  position: relative;
+  transition: transform .25s ease-in-out;
+}
+
+.displayCardContainer:hover {
+  background-color: #1b1b1b;
+  box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.08);
+  transition: transform .25s ease-in-out;
+  transform: translateY(-10px);
+}
+
+@keyframes displayCard {
+  0% {opacity: 0}
+  50% {top: 20px; opacity: 0}
+  100% {top: 0px; opacity: 1}
 }
 
 .displayCardContainer h6 {
@@ -60,4 +77,6 @@
   font-weight: 300;
   font-size: .7rem;
   color: #cbcbcb;
+  width: 100%;
+  display: block;
 }

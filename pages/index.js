@@ -130,12 +130,6 @@ export default function Home() {
 
       <BigDivider />
 
-      <div className={styles.headerDivider}></div>
-
-      <Footer />
-
-      <SmallDivider />
-      <SmallDivider />
     </div>
   )
 }

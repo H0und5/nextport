@@ -6,7 +6,8 @@ import BigDivider from "../src/components/Dividers/BigDivider";
 import DisplayCard from "../src/components/Cards/DisplayCard";
 import Footer from "../src/components/Footer/Footer";
 
-import giveDisplay from "../public/giveDisplay.jpeg";
+import manifestoDisplay from '../public/ManifestoDisplay.jpeg';
+import whatIWantToAchieveEarlyDisplay from '../public/WhatIWantToAchieveEarlyDisplay.jpeg'
 
 // components
 
@@ -18,7 +19,7 @@ export default function Writings() {
 
       <div className={styles.sectionRows}>
         <DisplayCard
-          imageSrc={giveDisplay}
+          imageSrc={manifestoDisplay}
           alt={"This is an article about my manifesto and the things I'm grateful for."}
           title={"Manifesto"}
           description={"An article about my thoughts when aiming to improve my self and craft."}
@@ -26,7 +27,7 @@ export default function Writings() {
           link={'/writings/Manifesto'}
         />
         <DisplayCard
-          imageSrc={giveDisplay}
+          imageSrc={whatIWantToAchieveEarlyDisplay}
           alt={"An article about the things I want to achieve early in my career"}
           title={"What I want to achieve early in my career"}
           description={"A written goal for what I’ll be aiming for over these next few years."}
@@ -36,8 +37,6 @@ export default function Writings() {
       </div>
 
       <BigDivider />
-
-      <Footer />
     </div>
   );
 }
