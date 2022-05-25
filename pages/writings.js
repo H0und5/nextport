@@ -2,7 +2,9 @@
 import styles from "../styles/Home.module.css";
 
 import DesktopLargeDivider from "../src/components/Dividers/DesktopLargeDivider";
+import BigDivider from "../src/components/Dividers/BigDivider";
 import DisplayCard from "../src/components/Cards/DisplayCard";
+import Footer from "../src/components/Footer/Footer";
 
 import giveDisplay from "../public/giveDisplay.jpeg";
 
@@ -19,7 +21,7 @@ export default function Writings() {
           imageSrc={giveDisplay}
           alt={"This is an article about my manifesto and the things I'm grateful for."}
           title={"Manifesto"}
-          description={"A thought about what I’ve always held when aiming to improve my self and craft."}
+          description={"An article about my thoughts when aiming to improve my self and craft."}
           cta={"Read article"}
           link={'/writings/Manifesto'}
         />
@@ -32,6 +34,10 @@ export default function Writings() {
           link={'/writings/what-I-want-to-achieve-early'}
         />
       </div>
+
+      <BigDivider />
+
+      <Footer />
     </div>
   );
 }

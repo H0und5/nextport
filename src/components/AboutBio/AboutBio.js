@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import styles from './AboutBio.module.css';
 
 const AboutBio = () => {
@@ -5,7 +6,7 @@ const AboutBio = () => {
   return (
     <div className={styles.aboutBio}>
       <h1>
-        Digital product designer in Dallas, TX
+        Digital product designer
       </h1>
 
       <p>
@@ -13,7 +14,7 @@ const AboutBio = () => {
 
         <br/><br/>
 
-        In a usual week, I work with design systems, building low and high fidelity UIs in Figma, creating interactive prototypes for usability tests with Protopie, and providing assets and writing documentation for developer handoff with Zeplin and Storybookjs.
+        In a usual week, I work with design systems, building low and high fidelity UIs in <a className={styles.highlights} target="_blank" rel="noreferrer" href='https://www.figma.com'>Figma</a>, creating interactive prototypes for usability tests with <a className={styles.highlights} target="_blank" rel="noreferrer" href='https://www.protopie.io'>Protopie</a>, and providing assets and writing documentation for developer handoff with <a className={styles.highlights} target="_blank" rel="noreferrer" href='https://storybook.js.org'>Storybookjs</a>.
 
         <br/><br/>
 
