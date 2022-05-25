@@ -53,14 +53,16 @@ export default function Home() {
           title={"UI Mission"}
           description={"Randomized UI prompts that to help designers stay in constraints working with other systems."}
           link={"View live site ->"}
-          linkSource={"/writings/two"}
+          linkSource={"https://www.uimission.com"}
+          targetBlank={"_blank"}
         />
         
         <CopyCard 
           title={"GitBuds"}
-          description={"Randomized UI prompts that to help designers stay in constraints working with other systems."}
+          description={"Search the people you know and admire to check out their GitHub profile in an aesthetic way."}
           link={"View live site ->"}
-          linkSource={"/writings/two"}
+          linkSource={"https://gitbuds.netlify.app/"}
+          targetBlank={"_blank"}
         />
       </div>
       
@@ -75,14 +77,14 @@ export default function Home() {
           title={"Manifesto"}
           description={"To aim for excellence in the face of challenges and opportunities, is the mark of a designer."}
           link={"Read article ->"}
-          linkSource={"/writings/two"}
+          linkSource={"/writings/manifesto"}
         />
 
         <CopyCard 
           title={"What I want to achieve early in my career"}
           description={"A written goal for what I’ll be aiming for over these next few years and something I hope to achieve."}
           link={"Read article ->"}
-          linkSource={"/writings/two"}
+          linkSource={"/writings/what-I-want-to-achieve-early"}
         />
       </div>
 
@@ -97,14 +99,16 @@ export default function Home() {
           title={"Range"}
           description={"A book about why generalists triumph in a specialized world is a 2019 book by David Epstein."}
           link={"Buy from publisher ->"}
-          linkSource={"/writings/two"}
+          linkSource={"https://www.penguinrandomhouse.com/books/550188/range-by-david-epstein/"}
+          target={"_blank"}
         />
 
         <CopyCard 
           title={"Thinking in Systems"}
           description={"Offers insight for problem solving on scales of personal and global by Donella Meadows."}
           link={"Buy from publisher ->"}
-          linkSource={"/writings/two"}
+          linkSource={"https://www.chelseagreen.com/product/thinking-in-systems/"}
+          targetBlank={"_blank"}
         />
       </div>
 
@@ -115,14 +119,16 @@ export default function Home() {
           title={"Sapiens"}
           description={"Details the whole of human history through the Cognitive, Agricultural, and Scientific Revolutions."}
           link={"Buy from publisher ->"}
-          linkSource={"/writings/two"}
+          linkSource={"https://www.harpercollins.com/products/sapiens-yuval-noah-harari"}
+          targetBlank={"_blank"}
         />
 
         <CopyCard 
           title={"User-Friendly"}
           description={"How a paradigm that machines should anticipate what we need, quietly rules our modern lives."}
           link={"Buy from publisher ->"}
-          linkSource={"/writings/two"}
+          linkSource={"https://www.mcdbooks.com/books/user-friendly"}
+          targetBlank={"_blank"}
         />
       </div>
 

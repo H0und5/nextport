@@ -7,6 +7,8 @@ export default function WhatIWantToAchieve() {
   return (
     <div className={styles.container}>
 
+      I AINT GOT SHIT RN
+
     </div>
   )
 }

@@ -7,7 +7,8 @@ export default function Manifesto() {
   return (
     <div className={styles.container}>
 
-      <div className={styles.headerDivider}></div>
+
+      I AINT GOT SHIT RN
 
 
 

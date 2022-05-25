@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import styles from '../Cards/CopyCard.module.css';
 
-const CopyCard = ({ title, description, link, linkSource }) => {
+const CopyCard = ({ title, description, link, linkSource, targetBlank }) => {
 
   return (
     <div className={styles.copyCardContainer}>
@@ -10,7 +10,7 @@ const CopyCard = ({ title, description, link, linkSource }) => {
         <p>{description}</p>
       </div>
       <Link href={linkSource}>
-        <a className={styles.copyCardLink} target={"_blank"}>{link}</a>
+        <a className={styles.copyCardLink} target={targetBlank} rel="noreferrer">{link}</a>
       </Link>
     </div>
   )
