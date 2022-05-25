@@ -1,0 +1,10 @@
+.divider {
+  height: 4rem;
+}
+
+@media (max-width: 760px) {
+
+  .divider {
+    height: 2rem;
+  }
+}

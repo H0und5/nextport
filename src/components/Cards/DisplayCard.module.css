@@ -1,0 +1,61 @@
+@font-face {
+  font-family: "Untitled-Sans";
+  src: url("../../../public/fonts/untitled-sans-light.woff2");
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "Untitled-Sans";
+  src: url("../../../public/fonts/untitled-sans-regular.woff2");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "JetBrains Mono";
+  src: url("../../../public/fonts/JetBrainsMono-Light.woff2");
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "JetBrains Mono";
+  src: url("../../../public/fonts/JetBrainsMono-Thin.woff2");
+  font-weight: 100;
+}
+
+/* Font styles defined above */
+
+.displayCardContainer {
+  background-color: #1b1b1b;
+  border: 1px solid #272727;
+  margin: 0;
+  padding-bottom: 1.2rem;
+}
+
+.displayCardContainer h6 {
+  padding: 1rem;
+  font-family: 'Untitled Sans', sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  margin: 0;
+  color: #cbcbcb;
+}
+
+.displayCardContainer p {
+  padding-left: 1rem;
+  padding-bottom: 2rem;
+  font-family: 'Untitled Sans', sans-serif;
+  font-weight: 300;
+  font-size: 1rem;
+  margin: 0;
+  color: #999;
+}
+
+.displayCardCta {
+  padding-left: 1rem;
+  padding-bottom: 1rem;
+  margin: 0;
+  font-family: 'JetBrains Mono', monospace;
+  font-weight: 300;
+  font-size: .8rem;
+  color: #cbcbcb;
+}
