@@ -34,8 +34,8 @@
 .heading {
   display: flex;
   flex-direction: column;
-  width: 70%;
-  margin-top: 4rem;
+  width: 80%;
+  margin-top: 6rem;
   animation: heading;
   animation-duration: 1.5s;
   position: relative;
@@ -51,17 +51,16 @@
   font-family: 'GT Super Display', serif;
   color: #cbcbcb;
   font-weight: 100;
-  font-size: 2rem;
+  font-size: 2.6rem;
   margin: 0;
 }
 
 .heading h6 {
   padding: 0;
-  font-family: 'JetBrains Mono', monospace;
+  font-family: 'Untitled Sans', sans-serif;
   font-weight: 100;
-  font-size: .8rem;
+  font-size: 1rem;
   color: #999;
-  text-transform: uppercase;
   letter-spacing: .02rem;
   margin-top: 1.5rem;
   margin-bottom: 1.4rem;
@@ -78,7 +77,7 @@
 }
 
 .headerImage {
-  margin-top: 4rem;
+  margin-top: 6rem;
   animation: headerImage;
   animation-duration: 2s;
   position: relative;
@@ -94,6 +93,15 @@
   margin-top: 2rem;
   display: flex;
   flex-direction: row;
+  animation: sectionSplit;
+  animation-duration: 2.5s;
+  position: relative;
+}
+
+@keyframes sectionSplit {
+  0% {opacity: 0;}
+  50% {top: 40px; opacity: 0;}
+  100% {top: 0px; opacity: 1;}
 }
 
 .sectionSplit h2 {
@@ -101,6 +109,7 @@
   color: #cbcbcb;
   font-weight: 100;
   font-size: 1.6rem;
+  line-height: 2.2rem;
   margin: 0;
   width: 40%;
 }
@@ -137,14 +146,14 @@
     font-family: 'GT Super Display', serif;
     color: #cbcbcb;
     font-weight: 100;
-    font-size: 1.65rem;
+    font-size: 1.8rem;
     margin: 0;
-    line-height: 2rem;
+    line-height: 2.4rem;
   }
   
   .heading h6 {
     padding: 0;
-    font-family: 'JetBrains Mono', monospace;
+    font-family: 'Untitled Sans', sans-serif;
     font-weight: 100;
     font-size: .7rem;
     color: #999;
