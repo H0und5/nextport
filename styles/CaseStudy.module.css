@@ -34,7 +34,7 @@
 .heading {
   display: flex;
   flex-direction: column;
-  width: 80%;
+  width: 65%;
   margin-top: 6rem;
   animation: heading;
   animation-duration: 1.5s;
@@ -51,7 +51,7 @@
   font-family: 'GT Super Display', serif;
   color: #cbcbcb;
   font-weight: 100;
-  font-size: 2.6rem;
+  font-size: 2rem;
   margin: 0;
 }
 
@@ -192,8 +192,8 @@
     font-family: 'GT Super Display', serif;
     color: #cbcbcb;
     font-weight: 100;
-    font-size: 1.2rem;
-    line-height: 1.6rem;
+    font-size: 1.4rem;
+    line-height: 2rem;
     margin: 0;
     width: auto;
   }

@@ -7,6 +7,7 @@ import Image from "next/image";
 import giveDisplay from "../../public/giveDisplay.jpeg";
 
 import BigDivider from "../../src/components/Dividers/BigDivider";
+import MobileLargeDivider from "../../src/components/Dividers/MobileLargeDivider";
 
 // components
 
@@ -35,6 +36,8 @@ export default function Givelify() {
       </div>
 
       {/* This is the start of the case study content */}
+
+      <MobileLargeDivider />
 
       <div className={styles.sectionSplit}>
 

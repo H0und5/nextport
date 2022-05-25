@@ -1,0 +1,64 @@
+@font-face {
+  font-family: "Untitled-Sans";
+  src: url("../../../public/fonts/untitled-sans-light.woff2");
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "Untitled-Sans";
+  src: url("../../../public/fonts/untitled-sans-regular.woff2");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "GT Super Display";
+  src: url("../../../public/fonts/GT-Super-Display-Light.woff2");
+  font-weight: 300;
+}
+
+/* Font families defined above */
+
+.aboutBio {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.aboutBio h1 {
+  font-family: 'GT Super Display', serif;
+  font-weight: 100;
+  font-size: 2rem;
+  color: #cbcbcb;
+  margin-top: 6rem;
+  animation: header1;
+  animation-duration: 1.5s;
+  position: relative;
+}
+
+@keyframes header1 {
+  0% {opacity: 0}
+  50% {top: 20px; opacity: 0}
+  100% {top: 0px; opacity: 1;}
+}
+
+.aboutBio p {
+  font-family: 'Untitled Sans', sans-serif;
+  font-size: 1rem;
+  font-weight: 100;
+  line-height: 1.5rem;
+  color: #999;
+  margin-top: 2rem;
+  width: auto;
+  max-width: 80%;
+  animation: paragraphBio;
+  animation-duration: 2s;
+  position: relative;
+}
+
+@keyframes paragraphBio {
+  0% {opacity: 0}
+  50% {top: 20px; opacity: 0}
+  100% {top: 0px; opacity: 1}
+}
+
