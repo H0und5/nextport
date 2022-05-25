@@ -44,7 +44,7 @@ export default function Home() {
 
       {/* Start of Playground Section */}
 
-      <SmallDivider />
+      <BigDivider />
 
       <SectionHeader title={"Playground"} link={'/'}/>
       
