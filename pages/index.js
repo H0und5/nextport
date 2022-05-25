@@ -100,7 +100,7 @@ export default function Home() {
           description={"A book about why generalists triumph in a specialized world is a 2019 book by David Epstein."}
           link={"Buy from publisher ->"}
           linkSource={"https://www.penguinrandomhouse.com/books/550188/range-by-david-epstein/"}
-          target={"_blank"}
+          targetBlank={"_blank"}
         />
 
         <CopyCard 

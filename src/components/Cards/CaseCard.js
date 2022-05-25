@@ -1,5 +1,4 @@
 import Image from "next/image";
-import Link from "next/link";
 
 
 import styles from './CaseCard.module.css';
@@ -9,14 +8,14 @@ const CaseCard = ({ imageSrc, imageAlt, title, year, linkSource }) => {
   return (
     <div className={styles.caseCardContainer}>
       <div className={styles.caseCardImageContainer}>
-        <Link href={linkSource}>
+        <a href={linkSource}>
           <Image src={imageSrc} alt={imageAlt} height="1600" width="2800" layout="responsive" objectFit="cover"/>
-        </Link>
+        </a>
       </div>
-      <div className={styles.caseCardContent}>
+      <a href={linkSource}><div className={styles.caseCardContent}>
         <h5>{title}</h5>
         <p>{year}</p>
-      </div>
+      </div></a>
     </div>
   )
 }
