@@ -18,7 +18,7 @@ const DisplayCard = ({ imageSrc, alt, title, description, cta, link, targetBlank
           <p>{description}</p></a>
         </div>
         
-        <a href={link} className={styles.displayCardCta} rel="noreferrer">{cta}{" ->"}</a>
+        <a href={link} className={styles.displayCardCta} target={targetBlank} rel="noreferrer">{cta}{" ->"}</a>
     
     </div>
   )
