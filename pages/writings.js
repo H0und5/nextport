@@ -24,7 +24,7 @@ export default function Writings() {
           title={"Manifesto"}
           description={"An article about my thoughts when aiming to improve my self and craft."}
           cta={"Read article"}
-          link={'/writings/Manifesto'}
+          link={'/writings/manifesto'}
         />
         <DisplayCard
           imageSrc={whatIWantToAchieveEarlyDisplay}

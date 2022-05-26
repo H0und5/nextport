@@ -7,7 +7,10 @@ const DisplayCard = ({ imageSrc, alt, title, description, cta, link, targetBlank
   return (
       <div className={styles.displayCardContainer}>
         
-        <a href={link} target={targetBlank} rel="noreferrer"><Image src={imageSrc} alt={alt} layout="intrinsic"/></a>
+        <div className={styles.displayCardImageContainer}>
+          <a href={link} target={targetBlank} rel="noreferrer"><Image src={imageSrc} alt={alt} layout="intrinsic"/></a>
+        </div>
+          
         
         <div className={styles.displayCardCopy}>
           <a href={link} target={targetBlank} rel="noreferrer"><h6>{title}</h6>

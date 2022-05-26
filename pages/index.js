@@ -17,7 +17,6 @@ import SectionHeader from '../src/components/SectionHeader/SectionHeader';
 import CopyCard from '../src/components/Cards/CopyCard';
 import MobileButton from '../src/components/Buttons/MobileButton';
 import MobileBio from '../src/components/MobileBio/MobileBio';
-import Footer from '../src/components/Footer/Footer';
 
 
 export default function Home() {
@@ -132,7 +131,7 @@ export default function Home() {
         />
       </div>
 
-      <MobileButton cta={"VIEW ALL"} />
+      <MobileButton cta={"VIEW ALL"} srcTo={"/bookshelf"}/>
 
       <BigDivider />
 

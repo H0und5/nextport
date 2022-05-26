@@ -1,0 +1,94 @@
+@font-face {
+  font-family: "Untitled-Sans";
+  src: url("../public/fonts/untitled-sans-regular.woff2");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "GT Super Display";
+  src: url("../public/fonts/GT-Super-Display-Light.woff2");
+  font-weight: 300;
+}
+
+.FourZeroFourContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.FourZeroFourContainer h1 {
+  font-family: 'GT Super Display', serif;
+  font-weight: 100;
+  font-size: 2rem;
+  color: #cbcbcb;
+}
+
+.highlight {
+  color: #cbcbcb;
+  padding-bottom: 2px;
+  border-bottom: .5px solid #fff;
+  font-family: 'Untitled Sans', sans-serif;
+  font-weight: 300;
+  font-size: .9rem;
+}
+
+.CopyContainer p {
+  width: 70%;
+  color: #808080;
+  font-family: 'Untitled Sans', sans-serif;
+  font-weight: 100;
+  font-size: .9rem;
+  line-height: 1.5rem;
+}
+
+.CopyContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Mobile responsiveness */
+
+@media (max-width: 760px) {
+
+  .FourZeroFourContainer h1 {
+    font-family: 'GT Super Display', serif;
+    font-weight: 100;
+    font-size: 2rem;
+    color: #cbcbcb;
+    margin: 0;
+  }
+
+  .CopyContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+  }
+
+  .CopyContainer p {
+    width: 100%;
+    color: #808080;
+    font-family: 'Untitled Sans', sans-serif;
+    font-weight: 100;
+    font-size: .9rem;
+    line-height: 1.5rem;
+    margin-top: 1rem;
+  }
+
+  .highlight {
+    color: #cbcbcb;
+    padding-bottom: 0;
+    border-bottom: .5px solid #fff;
+    font-family: 'Untitled Sans', sans-serif;
+    font-weight: 300;
+    font-size: .9rem;
+  }
+
+}

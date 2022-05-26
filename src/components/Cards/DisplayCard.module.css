@@ -28,7 +28,6 @@
   background-color: #1b1b1b;
   border: 1px solid #272727;
   margin: 0rem 0 1.6rem 0;
-  padding-bottom: 1.2rem;
   animation: displayCard;
   animation-duration: 1.5s;
   position: relative;
@@ -71,12 +70,23 @@
 
 .displayCardCta {
   padding-left: 1rem;
-  padding-bottom: 1rem;
+  padding-bottom: 1.5rem;
   margin: 0;
   font-family: 'JetBrains Mono', monospace;
   font-weight: 300;
   font-size: .7rem;
   color: #cbcbcb;
   width: 100%;
+  display: block;
+}
+
+.displayCardBorder {
+  margin: 0;
+  padding: 0;
+  height: 1px;
+  background-color: #272727;
+}
+
+.displayCardImageContainer {
   display: block;
 }

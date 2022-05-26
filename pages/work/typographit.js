@@ -7,6 +7,7 @@ import Image from "next/image";
 import typeDisplay from "../../public/typographitDisplay.jpeg";
 
 import BigDivider from "../../src/components/Dividers/BigDivider";
+import LargeButton from "../../src/components/Buttons/LargeButton";
 
 // components
 
@@ -43,6 +44,8 @@ export default function Typographit() {
         <p>Retro bitters wayfarers vaporware. Locavore pop-up asymmetrical truffaut hella sustainable normcore, aesthetic tote bag skateboard hell of actually. <br/> <br/> Woke YOLO you probably have not heard of them, authentic typewriter shabby chic disrupt gentrify lo-fi echo park retro vinyl blue bottle. Cardigan snackwave single-origin coffee mumblecore ennui prism af hell of. Retro shabby chic literally, four loko praxis art party pickled. <br/> <br/> Adaptogen craft beer kitsch tonx polaroid migas cray typewriter tumblr locavore air plant normcore.</p>
 
       </div>
+
+      <LargeButton srcTo={'/work/clubhouse'} buttonCopy={'View next project (Clubhouse)'}/>
     
 
     <BigDivider />

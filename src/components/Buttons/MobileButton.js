@@ -2,12 +2,12 @@ import styles from '../Buttons/MobileButton.module.css';
 
 import Link from 'next/link';
 
-const MobileButton = ({ cta }) => {
+const MobileButton = ({ cta, srcTo }) => {
 
   return (
-    <button className={styles.buttonContainer} href="/bookshelf">
+    <button className={styles.buttonContainer}>
       <span className={styles.buttonCta}>
-        <Link href="/bookshelf">{cta}</Link>
+        <Link href={`${srcTo}`}>{cta}</Link>
       </span>
       <span className={styles.buttonArrow}>
         {' ->'}
