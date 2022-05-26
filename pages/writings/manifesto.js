@@ -1,17 +1,59 @@
 // import Head from 'next/head'
-import styles from '../../styles/Home.module.css';
+import WritingHeader from "../../src/components/Header/WritingHeader";
+import LargeButton from '../../src/components/Buttons/LargeButton';
+
+import Image from "next/image";
+
+import style from "../../styles/Home.module.css";
+import styles from "../../styles/Writings.module.css";
+
+import manifestoDisplay from "../../public/ManifestoDisplay.jpeg";
+import BigDivider from "../../src/components/Dividers/BigDivider";
 
 // components
 
 export default function manifesto() {
   return (
-    <div className={styles.container}>
+    <div className={style.container}>
+      <div className={styles.writingHeadingContainer}>
+        <WritingHeader title={"Manifesto"} />
 
+        <Image
+          src={manifestoDisplay}
+          alt={"display image for the manifesto article"}
+        />
+      </div>
 
-      I AINT GOT SHIT RN
+      <div className={styles.writingContent}>
+        <p>
+          Every now and then I notice feats of great talent and skill, whether
+          it be from those I know well to those I don’t. The appreciation of
+          such works fuels my passion to reach similar standards of excellence.
 
+          <br/><br/>
+          I have had the privilege of working with and learning from an
+          incredible network of professionals so dedicated to their crafts with
+          such humility, I find that it compels me to elevate the standards I
+          hold myself to. 
+          
+          <br/><br/>
+          
+          It is of great importance for me to sharpen my skills
+          and broaden my talents in the effort that I can improve myself and in
+          the same breath, deliver a level of quality that others can be proud
+          of for me. 
+          
+          <br/><br/>
+          
+          I believe that to aim for excellence in the face of great
+          challenges and opportunities, is the mark of a designer.
+        </p>
+      </div>
 
+      <LargeButton srcTo={'what-I-want-to-achieve-early'} buttonCopy={'Read next article'}/>
+
+      <BigDivider />
 
     </div>
-  )
+  );
 }

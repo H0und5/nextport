@@ -1,0 +1,80 @@
+@font-face {
+  font-family: "Untitled-Sans";
+  src: url("../public/fonts/untitled-sans-light.woff2");
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "Untitled-Sans";
+  src: url("../public/fonts/untitled-sans-regular.woff2");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "JetBrains Mono";
+  src: url("../public/fonts/JetBrainsMono-Light.woff2");
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "JetBrains Mono";
+  src: url("../public/fonts/JetBrainsMono-Thin.woff2");
+  font-weight: 100;
+}
+
+@font-face {
+  font-family: "GT Super Display";
+  src: url("../public/fonts/GT-Super-Display-Light.woff2");
+  font-weight: 300;
+}
+
+/* font styles defined above */
+
+.writingHeadingContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  animation: writingHeader;
+  animation-duration: 1s;
+  position: relative;
+}
+
+@keyframes writingHeader {
+  0% {opacity: 0;}
+  50% {top: 20px; opacity: 0;}
+  100% {top: 0px; opacity: 1;}
+}
+
+.writingContent {
+  width: 100%;
+  animation: writingContent;
+  animation-duration: 2s;
+  position: relative;
+}
+
+@keyframes writingContent {
+  0% {opacity: 0;}
+  50% {top: 20px; opacity: 0;}
+  100% {top: 0px; opacity: 1;}
+}
+
+.writingContent p {
+  font-family: 'Untitled Sans', sans-serif;
+  font-weight: 300;
+  font-size: .9rem;
+  color: #999;
+  line-height: 1.5rem;
+}
+
+
+/* Mobile responsiveness fucking type shit fuck defined below */
+
+@media (max-width: 760px) {
+
+  .writingHeadingContainer {
+    display: block;
+    margin: 0;
+  }
+
+}
