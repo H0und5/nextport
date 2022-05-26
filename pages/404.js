@@ -34,8 +34,7 @@ export default function FourZeroFour() {
           to rant and/or explain what happened so I can fix it.
           <br />
           <br />
-          Otherwise, you can go ahead and click the button below to navigate
-          back to the home page or click my name at the top left.
+          Otherwise, you can click my name at the top left to redirect to the home page.
         </p>
       </div>
 

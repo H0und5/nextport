@@ -3,11 +3,13 @@ import Link from "next/link";
 
 const LargeButton = ({ buttonCopy, srcTo }) => {
   return (
+    <Link href={`${srcTo}`}>
       <button type="button" className={styles.buttonContainer}>
-        <Link href={srcTo}>
-                <p>{`${buttonCopy} ->`}</p>
-        </Link>
+
+                <p className={styles.buttonCopy}>{`${buttonCopy}`}<span className={styles.arrowCta}>{' ->'}</span></p>
+
       </button>
+      </Link>
   );
 };
 

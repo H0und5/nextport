@@ -1,4 +1,4 @@
-import styles from '../Dividers/Divider.module.css';
+import styles from '../Dividers/BigDivider.module.css';
 
 const BigDivider = () => {
 
