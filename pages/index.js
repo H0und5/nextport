@@ -1,9 +1,11 @@
 // import Head from 'next/head'
 import styles from '../styles/Home.module.css';
+import Head from 'next/head';
 
 // images
 import giveDisplay from '../public/giveDisplay.jpeg';
 import jhamDisplay from '../public/jhamDisplay.jpeg';
+import splashImage from '../public/splashImage.jpeg';
 
 
 // // import home JSON object
@@ -22,6 +24,22 @@ import MobileBio from '../src/components/MobileBio/MobileBio';
 export default function Home() {
   return (
     <div className={styles.container}>
+
+      <Head>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta charSet="utf-8" />
+        <title>Om Nagarkar - Product Designer</title>
+
+        {/* Twitter */}
+        <meta name="twitter:card" content="summary" key="twcard" />
+
+        {/* Open Graph */}
+        <meta property="og:url" content="omnextport.vercel.app" key="ogurl" />
+        <meta property="og:image" content={splashImage} key="ogimage" />
+        <meta property="og:site_name" content="Portfolio of Om Nagarkar - Product Designer" key="ogsitename" />
+        <meta property="og:title" content="Home Page of Om Nagarkar's Portfolio" key="ogtitle" />
+        <meta property="og:description" content="Product designer based in Dallas, TX" key="ogdesc" />
+      </Head>
 
       <MobileBio />
 

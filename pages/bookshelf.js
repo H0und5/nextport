@@ -1,15 +1,47 @@
 // import Head from 'next/head'
 import styles from "../styles/Home.module.css";
 
+import Head from "next/head";
+
 import BigDivider from "../src/components/Dividers/BigDivider";
 import SmallDivider from "../src/components/Dividers/SmallDivider";
 import CopyCard from "../src/components/Cards/CopyCard";
+
+import splashImage from '../public/splashImage.jpeg'
 
 // components
 
 export default function Bookshelf() {
   return (
     <div className={styles.container}>
+
+<Head>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta charSet="utf-8" />
+        <title>Bookshelf - Om Nagarkar - Product Designer</title>
+
+        {/* Twitter */}
+        <meta name="twitter:card" content="summary" key="twcard" />
+
+        {/* Open Graph */}
+        <meta property="og:url" content="omnextport.vercel.app/playground" key="ogurl" />
+        <meta property="og:image" content={splashImage} key="ogimage" />
+        <meta
+          property="og:site_name"
+          content="Bookshelf of Om Nagarkar - Product Designer"
+          key="ogsitename"
+        />
+        <meta
+          property="og:title"
+          content="Bookshelf page of Om Nagarkar's Portfolio"
+          key="ogtitle"
+        />
+        <meta
+          property="og:description"
+          content="Bookshelf page of Om Nagarkar, product designer based in Dallas, TX"
+          key="ogdesc"
+        />
+      </Head>
 
       <SmallDivider />
       <SmallDivider />
